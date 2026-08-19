@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="bbscore.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <h2 id="home-score">0</h2>
+                <div class="row">
+                    <button id="increase-btn" onclick="addOneHome()">+ 1</button>
+                    <button id="increase-btn" onclick="addTwoHome()">+ 2</button>
+                    <button id="increase-btn" onclick="addThreeHome()">+ 3</button>
+                </div>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <h2 id ="guest-score">0</h2>
+                <div class="row">
+                    <button id="increase-btn" onclick="addOneGuest()">+ 1</button>
+                    <button id="increase-btn" onclick="addTwoGuest()">+ 2</button>
+                    <button id="increase-btn" onclick="addThreeGuest()">+ 3</button>
+                </div>
+            </div>
+        </div>
+        <div class="button_aligner">
+            <button id="reset-btn" onclick="reset()">RESET</button>
+        </div>
+        <script src="bbscore.js"></script>
+    </body>
+</html>
